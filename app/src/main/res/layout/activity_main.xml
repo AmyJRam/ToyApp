@@ -11,6 +11,10 @@
     <!--TODO (4) Default Text Removed -->
     <!--TODO (5) Set the Text Padding to 16dp -->
     <!--TODO (6) Set the  text Size to  20dp -->
+    <!-- TODO (10) Added ScrollView around Text-View  and set height as wrap_content and width as match_parent  -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
         android:id="@+id/tv_toy_names"
         android:layout_width="wrap_content"
@@ -18,5 +22,5 @@
         android:padding="16dp"
         android:textSize="20dp"
         />
-
+    </ScrollView>
 </FrameLayout>

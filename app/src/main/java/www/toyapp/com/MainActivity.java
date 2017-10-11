@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
          /*
             TODO(8) Using findViewById to reference to the textview from layout
      */
+         mToysListTextView=(TextView)findViewById(R.id.tv_toy_names);
          /*
             TODO(9) Declared ToysList Array and Assigned values using getToys() Static method
      */
