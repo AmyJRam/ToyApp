@@ -106,9 +106,9 @@ public class MainActivityEx3 extends AppCompatActivity {
         int itemThatWasClickedId = item.getItemId();
         if (itemThatWasClickedId == R.id.action_search) {
 
-          /*  Context context = MainActivityEx3.this;
+         Context context = MainActivityEx3.this;
             String textToShow = "Search clicked";
-            Toast.makeText(context, textToShow, Toast.LENGTH_SHORT).show();*/
+            Toast.makeText(context, textToShow, Toast.LENGTH_SHORT).show();
 
             makeGithubSearchQuery();
 
