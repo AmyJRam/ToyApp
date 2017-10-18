@@ -9,7 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp">
 
-
+//addedd
     <EditText
         android:id="@+id/et_search_box"
         android:layout_width="match_parent"
