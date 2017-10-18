@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ToyApp</string>
+    <string name="search">Search</string>
+    <string name="errorMessage">Error While Loading Result</string>
 </resources>
